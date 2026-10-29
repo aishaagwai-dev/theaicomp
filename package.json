@@ -1,0 +1,12 @@
+{
+  "name": "theaicomp-website",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": "24.x"},
+  "scripts": {
+    "build": "node scripts/check-build.mjs",
+    "test": "node --test tests/contact.test.mjs",
+    "dev": "node scripts/preview.mjs"
+  }
+}
